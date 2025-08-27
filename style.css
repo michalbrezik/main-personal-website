@@ -39,3 +39,17 @@ text-align: center;
   color: white;
   text-align: center;
 }
+.socialLinksDiv{
+filter: invert(100%);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.socialLinksDivLightAlt{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
