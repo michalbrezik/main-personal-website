@@ -13,6 +13,7 @@ function darkMode(){
                           elements[i].className = 'socialLinksDivLightAlt';
                            }
                     }
+           document.getElementById("dark-mode").innerHTML = "Dark mode";
         }
         else{
             //dark mode
@@ -25,7 +26,9 @@ function darkMode(){
                          {
                           elements[i].className = 'socialLinksDiv';
                            }
-                    }
+                  
+                       }
+         document.getElementById("dark-mode").innerHTML = "Light mode";
         }
     }
 }
